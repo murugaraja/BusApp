@@ -8,10 +8,12 @@
   <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet" href="bootstrap-select.css">
   <script src="jquery.min.js"></script>
+  <script type="text/javascript" language="javascript" src="Timings.json"></script> 
   <script type="text/javascript" language="javascript" src="data.json"></script> 
   <script src="bootstrap.min.js"></script>
   <script src="bootstrap-select.js"></script>
   <script src="success.js"></script>
+  <script type="text/javascript" src="Timings.json"></script>
 
   <style>
     body {
@@ -21,30 +23,42 @@
 
 </head>
 <body onload="myFunction()">
+
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
       <a class="navbar-brand" >Native Bus Service</a><img style="max-width:60px; margin-top: -7px;" src="logo.png">
     </div>
   </div>
-</nav>
+</nav> 
 
 <div class="container">
     <div class="form-group">
-      <img style="max-width:30px;" src="point.png"><label for="basic" class="col-lg-2 control-label">From</label>
-	  <div class="col-lg-10">
+			<table>
+				<tr>
+					<td><img style="max-width: 30px;" src="point.png"></td>
+					<td><label for="basic" class="col-lg-2 control-label">From</label></td>
+				</tr>
+			</table>
+
+			<div class="col-lg-10">
         <select id="source" class="show-tick form-control" data-live-search="true"></select>
       </div>
     </div>
-
+<br>
     <div class="form-group">
-      <img style="max-width:30px;" src="point.png"><label for="basic" class="col-lg-2 control-label">To</label>    
+     <table>
+				<tr>
+					<td><img style="max-width: 30px;" src="point.png"></td>
+					<td><label for="basic" class="col-lg-2 control-label">To</label></td>
+				</tr>
+			</table>  
 	  <div class="col-lg-10">
         <select id="source1" class="show-tick form-control" data-live-search="true"></select>
       </div>
     </div>
 
-<hr>
+<br>
 
 
 <button type="button" class=" btn btn-primary" onclick="getDetails()">Search Bus &nbsp;&nbsp;<span class="glyphicon glyphicon-search"></span>

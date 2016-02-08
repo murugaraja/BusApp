@@ -1,0 +1,339 @@
+bustimingsdata = '{'+
+'  "11": {                                  '+
+'    "Thellar": "07:15 pm",                 '+
+'    "Korakottai": "07:20 pm",              '+
+'    "Kunnagampoondi": "07:35 pm",          '+
+'    "Desure": "07:45 pm",                  '+
+'    "Chethpat": "08:30 pm"                 '+
+'  },                                       '+
+'  "140D": {                                '+
+'    "Vedal": "03:15 am",                   '+
+'    "Kunnagampoondi": "03:30 am",          '+
+'    "Desure": "03:40 am",                  '+
+'    "Kandavaratti": "03:55 am",            '+
+'    "TE College": "04:00 am",              '+
+'    "Vandavasi": "04:15 am",               '+
+'    "Vazhur": "04:35 am",                  '+
+'    "Uthiramerur": "05:00 am",             '+
+'    "Chengalpattu": "05:30 am",            '+
+'    "Thambaram": "07:15 am"                '+
+'  },                                       '+
+'  "140D Return": {                         '+
+'    "Koyambedu": "3:45 pm",                '+
+'    "Thambaram": "04:30 pm",               '+
+'    "Uthiramerur": "06:50 pm",             '+
+'    "Vandavasi": "07:20 pm",               '+
+'    "TE College": "08:00 pm",              '+
+'    "Desure": "08:25 pm",                  '+
+'    "Kunnagampoondi": "08:35 pm",          '+
+'    "Vedal": "08:45 pm"                    '+
+'  },                                       '+
+'  "76B": {                                 '+
+'    "Vedal": "04:00 pm",                   '+
+'    "Kunnagampoondi": "06:00 pm",          '+
+'    "Namandi": "06:00 pm",                 '+
+'    "Korakottai": "06:00 pm",             '+
+'    "Vandavasi": "06:00 pm",               '+
+'    "Kanchipuram": "08:00 pm"              '+
+'  },                                       '+
+'  "76B Return": {                          '+
+'    "Vedal": "04:15 am",                   '+
+'    "Kunnagampoondi": "04:25 am",          '+
+'    "Namandi": "04:30 am",                 '+
+'    "Korakottai": "04:45 am",             '+
+'    "Vandavasi": "05:15 am",               '+
+'    "Kanchipuram": "06:30 am"              '+
+'  },                                       '+
+'  "Narayanamoorthy1-0": {                  '+
+'    "Gingee": "05:00 am",                  '+
+'    "Pennagar": "05:20 am",                 '+
+'    "Thamanur": "05:25 am",                '+
+'    "Vedal": "05:30 am",                   '+
+'    "Kunnagampoondi": "05:35 am",          '+
+'    "Desure": "05:45 am",                  '+
+'    "Mazhaiyur": "06:20 am",               '+
+'    "Vandavasi": "07:00 am",               '+
+'    "Perunagar": "07:20 am",               '+
+'    "Mangal x Road": "07:40 am",           '+
+'    "Kanchipuram": "08:15 am"              '+
+'  },                                       '+
+'  "Narayanamoorthy1-1": {                  '+
+'    "Kanchipuram": "08:30 am",             '+
+'    "Mangal x Road": "09:05 am",           '+
+'    "Perunagar": "09:25 am",               '+
+'    "Vandavasi": "10:00 am",               '+
+'    "Mazhaiyur": "10:20 am",               '+
+'    "Desure": "11:00 am",                  '+
+'    "Kunnagampoondi": "11:10 am",          '+
+'    "Vedal": "11:15 am",                   '+
+'    "Thamanur": "11:20 am",                '+
+'    "Pennagar": "11:30 am",                 '+
+'    "Gingee": "12:00 pm"                   '+
+'  },                                       '+
+'  "Narayanpmoorthy1-3": {                  '+
+'    "Gingee": "12:00 pm",                  '+
+'    "Pennagar": "12:20 pm",                 '+
+'    "Thamanur": "12:25 pm",                '+
+'    "Vedal": "12:30 pm",                   '+
+'    "Kunnagampoondi": "12:35 pm",          '+
+'    "Desure": "12:45 pm",                  '+
+'    "Mazhaiyur": "01:10 pm",               '+
+'    "Vandavasi": "01:30 pm",               '+
+'    "Perunagar": "01:50 pm",               '+
+'    "Mangal x Road": "02:05 pm",           '+
+'    "Kanchipuram": "02:30 pm"              '+
+'  },                                       '+
+'  "Narayanpmoorthy1-4": {                  '+
+'    "Kanchipuram": "06:00 pm",             '+
+'    "Mangal x Road": "06:45 pm",           '+
+'    "Perunagar": "07:05 pm",               '+
+'    "Vandavasi": "08:15 pm",               '+
+'    "Mazhaiyur": "08:30 pm",               '+
+'    "Desure": "08:40 pm",                  '+
+'    "Kunnagampoondi": "09:00 pm",          '+
+'    "Vedal": "09:15 pm",                   '+
+'    "Thamanur": "09:20 pm",                '+
+'    "Pennagar": "09:30 pm",                 '+
+'    "Gingee": "10:00 pm"                   '+
+'  },                                       '+
+'  "SriRam": {                              '+
+'    "Gingee": "05:00 am",                  '+
+'    "Olakur": "06:10 am",                  '+
+'    "Vedal": "06:30 am",                   '+
+'    "Kunnagampoondi": "06:35 am",          '+
+'    "Desure": "06:45 am",                  '+
+'    "Mazhaiyur": "07:00 am",               '+
+'    "Vandavasi": "07:35 am"                '+
+'  },                                       '+
+'  "SriRam-": {                             '+
+'    "Vandavasi": "08:15 am",               '+
+'    "Mazhaiyur": "08:30 am",               '+
+'    "Desure": "08:55 am",                  '+
+'    "Kunnagampoondi": "09:00 am",          '+
+'    "Vedal": "09:15 am",                   '+
+'    "Olakur": "05:20 am",                  '+
+'    "Gingee": "10:30 am"                   '+
+'  },                                       '+
+'  "W2": {                                  '+
+'    "Vandavasi": "05:00 am",               '+
+'    "Thellar": "05:30 am",                 '+
+'    "Kunnagampoondi": "05:55 am",          '+
+'    "Vedal": "06:00 am"                    '+
+'  },                                       '+
+'  "W2-": {                                 '+
+'    "Vedal": "06:00 am",                   '+
+'    "Kunnagampoondi": "06:05 am",          '+
+'    "Thellar": "06:30 am",                 '+
+'    "Vandavasi": "07:00 am"                '+
+'  },                                       '+
+'  "W2 -- ": {                              '+
+'    "Vandavasi": "05:00 pm",               '+
+'    "Thellar": "05:30 pm",                 '+
+'    "Kunnagampoondi": "05:55 pm",          '+
+'    "Vedal": "06:00 pm"                    '+
+'  },                                       '+
+'  "W2 ---": {                              '+
+'    "Vedal": "06:00 pm",                   '+
+'    "Kunnagampoondi": "06:05 pm",          '+
+'    "Thellar": "06:30 pm",                 '+
+'    "Vandavasi": "07:00 pm"                '+
+'  },                                       '+
+'  "12W": {                                 '+
+'    "Vandavasi": "05:30 am",               '+
+'    "Ponnur": "06:00 am",                  '+
+'    "Kilputhur": "06:15 am",               '+
+'    "Desure": "06:45 am",                  '+
+'    "Kunnagampoondi": "06:50 am",          '+
+'    "Vedal": "07:00 am"                    '+
+'  },                                       '+
+'  "12W-": {                                '+
+'    "Vedal": "07:10 am",                   '+
+'    "Kunnagampoondi": "07:15 am",          '+
+'    "Desure": "07:25 am",                  '+
+'    "Kilputhur": "07:45 am",               '+
+'    "Ponnur": "08:00 am",                  '+
+'    "Vandavasi": "08:30 am"                '+
+'  },                                       '+
+'  "12W--": {                               '+
+'    "Vandavasi": "02:30 pm",               '+
+'    "Kandavaratti": "02:20 pm",            '+
+'    "Desure": "03:10 pm",                  '+
+'    "Kunnagampoondi": "03:20 pm",          '+
+'    "Vedal": "03:30 pm"                    '+
+'  },                                       '+
+'  "12W---": {                              '+
+'    "Vedal": "03:30 pm",                   '+
+'    "Kunnagampoondi": "03:35 pm",          '+
+'    "Desure": "03:45 pm",                  '+
+'    "Kandavaratti": "04:00 pm",            '+
+'    "Vandavasi": "04:30 pm"                '+
+'  },                                       '+
+'  "Narayanamoorthy2-0": {                  '+
+'    "Kanchipuram": "03:30 am",             '+
+'    "Cheyyar": "04:15 am",                 '+
+'    "Vandavasi": "06:00 am",               '+
+'    "Mazhaiyur": "06:20 am",               '+
+'    "Desure": "06:40 am",                  '+
+'    "Kunnagampoondi": "06:50 am",          '+
+'    "Vedal": "07:00 am"                    '+
+'  },                                       '+
+'  "Narayanamoorthy2-1": {                  '+
+'    "Vedal": "07:25 am",                   '+
+'    "Kunnagampoondi": "07:30 am",          '+
+'    "Desure": "07:40 am",                  '+
+'    "Mazhaiyur": "08:00 am",               '+
+'    "Vandavasi": "08:30 am",               '+
+'    "Cheyyar": "09:30 am",                 '+
+'    "Kanchipuram": "10:30 am"              '+
+'  },                                       '+
+'  "Narayanamoorthy2-2": {                  '+
+'    "Kanchipuram": "01:15 pm",             '+
+'    "Cheyyar": "02:15 pm",                 '+
+'    "Vandavasi": "03:00 pm",               '+
+'    "Mazhaiyur": "03:20 pm",               '+
+'    "Desure": "04:00 pm",                  '+
+'    "Kunnagampoondi": "04:10 pm",          '+
+'    "Vedal": "04:15 pm",                   '+
+'    "Thamanur": "04:30 pm",                '+
+'    "Pennagar": "04:40 pm",                '+
+'    "Gingee": "05:00 pm"                   '+
+'  },                                       '+
+'  "Narayanamoorthy2-3": {                  '+
+'    "Gingee": "05:00 pm",                  '+
+'    "Pennagar": "05:10 pm",                '+
+'    "Thamanur": "05:20 pm",                '+
+'    "Vedal": "05:25 pm",                   '+
+'    "Kunnagampoondi": "05:30 pm",          '+
+'    "Desure": "05:40 pm",                  '+
+'    "Mazhaiyur": "06:00 pm",               '+
+'    "Vandavasi": "06:30 pm",               '+
+'    "Cheyyar": "07:10 pm",                 '+
+'    "Kanchipuram": "08:10 pm"              '+
+'  },                                       '+
+'  "148K": {                                '+
+'    "Vandavasi": "06:40 am",               '+
+'    "Thellar": "07:10 am",                 '+
+'    "Kunnagampoondi": "07:40 am",          '+
+'    "Vedal": "07:45 am"                    '+
+'  },                                       '+
+'  "148K-": {                               '+
+'    "Vedal": "07:45 am",                   '+
+'    "Kunnagampoondi": "07:50 am",          '+
+'    "Korakottai": "08:00 am",              '+
+'    "Thellar": "08:10 am",                 '+
+'    "Vandavasi": "08:45 am",               '+
+'    "Uthiramerur": "09:30 am",             '+
+'    "Thambaram": "11:15 am"                '+
+'  },                                       '+
+'  "148K--": {                              '+
+'    "Thambaram": "11:30 am",               '+
+'    "Uthiramerur": "12:30 pm",             '+
+'    "Vandavasi": "01:30 pm",               '+
+'    "Thellar": "02:00 pm",                 '+
+'    "Kunnagampoondi": "02:30 pm",          '+
+'    "Vedal": "02:45 pm"                    '+
+'  },                                       '+
+'  "148K---": {                             '+
+'    "Vedal": "02:50 pm",                   '+
+'    "Kunnagampoondi": "03:00 pm",          '+
+'    "Korakottai": "03:20 pm",              '+
+'    "Thellar": "03:30 pm",                 '+
+'    "Vandavasi": "03:50 pm"                '+
+'  },                                       '+
+'  "Prasanna": {                            '+
+'    "Mathuranthagam": "07:30 am",          '+
+'    "Melmaruvathur": "07:50 am",           '+
+'    "Elapakkam": "08:15 am",               '+
+'    "Vandavasi": "09:30 am",              '+
+'    "Mazhaiyur": "10:00 am",               '+
+'    "Desure": "10:20 am",                  '+
+'    "Kunnagampoondi": "10:25 am",          '+
+'    "Vedal": "10:30 am"                    '+
+'  },                                       '+
+'  "Prasanna-": {                           '+
+'    "Vedal": "10:30 am",                   '+
+'    "Kunnagampoondi": "10:40 am",          '+
+'    "Desure": "10:50 am",                  '+
+'    "Mazhaiyur": "11:15 am",               '+
+'    "Vandavasi": "11:45 am"               '+
+'  },                                       '+
+'  "Prasanna--": {                          '+
+'    "Vandavasi": "05:00 pm",              '+
+'    "Mazhaiyur": "05:20 pm",               '+
+'    "Desure": "05:45 pm",                  '+
+'    "Kunnagampoondi": "06:00 pm",          '+
+'    "Vedal": "06:15 pm"                    '+
+'  },                                       '+
+'  "Prasanna---": {                         '+
+'    "Vedal": "06:15 pm",                   '+
+'    "Kunnagampoondi": "06:20 pm",          '+
+'    "Desure": "06:30 pm",                  '+
+'    "Mazhaiyur": "06:55 pm",               '+
+'    "Vandavasi": "07:15 pm"               '+
+'  },                                       '+
+'  "Narayanamoorthy3-1": {                  '+
+'    "Kanchipuram": "06:00 am",             '+
+'    "Mangal x Road": "06:35 am",           '+
+'    "Perunagar": "06:55 am",               '+
+'    "Vandavasi": "07:00 am",               '+
+'    "Mazhaiyur": "07:30 am",               '+
+'    "Desure": "07:50 am",                  '+
+'    "Kunnagampoondi": "08:05 am",          '+
+'    "Vedal": "08:15 am",                   '+
+'    "Olakur": "08:40 am",                  '+
+'    "Gingee": "09:00 am"                   '+
+'  },                                       '+
+'  "Narayanamoorthy3-4": {                  '+
+'    "Gingee": "09:15 am",                  '+
+'    "Olakur": "10:00 am",                  '+
+'    "Vedal": "10:05 am",                   '+
+'    "Kunnagampoondi": "10:15 am",          '+
+'    "Desure": "10:25 am",                  '+
+'    "Mazhaiyur": "10:40 am",               '+
+'    "Vandavasi": "11:05 am",               '+
+'    "Perunagar": "11:15 am",               '+
+'    "Mangal x Road": "11:25 am",           '+
+'    "Kanchipuram": "12:15 pm"              '+
+'  },                                       '+
+'  "Narayanpmoorthy3-3": {                  '+
+'    "Kanchipuram": "12:30 pm",             '+
+'    "Mangal x Road": "01:05 pm",           '+
+'    "Perunagar": "01:20 pm",               '+
+'    "Vandavasi": "01:45 pm",               '+
+'    "Mazhaiyur": "02:05 pm",               '+
+'    "Desure": "02:35 pm",                  '+
+'    "Kunnagampoondi": "02:40 pm",          '+
+'    "Vedal": "02:45 pm",                   '+
+'    "Olakur": "03:00 pm",                  '+
+'    "Gingee": "03:15 pm"                   '+
+'  },                                       '+
+'  "Narayanpmoorthy3-2": {                  '+
+'    "Gingee": "03:15 pm",                  '+
+'    "Olakur": "03:25 pm",                  '+
+'    "Vedal": "04:15 pm",                   '+
+'    "Kunnagampoondi": "04:20 pm",          '+
+'    "Desure": "04:30 pm",                  '+
+'    "Mazhaiyur": "04:50 pm",               '+
+'    "Vandavasi": "05:15 pm",               '+
+'    "Perunagar": "05:35 pm",               '+
+'    "Mangal x Road": "05:55 pm",           '+
+'    "Kanchipuram": "06:30 pm"              '+
+'  },                                       '+
+'  "NarayanaMoorthy4-0": {                  '+
+'    "Vandavasi": "06:40 am",              '+
+'    "Mazhaiyur": "07:05 am",               '+
+'    "Desure": "07:20 am",                  '+
+'    "Kunnagampoondi": "07:30 am",          '+
+'    "Vedal": "07:40 am",                   '+
+'    "Gingee": "08:40 am"                   '+
+'  },                                       '+
+'  "NarayanaMoorthy4-1": {                  '+
+'    "Gingee": "08:40 am",                  '+
+'    "Vedal": "09:35 am",                   '+
+'    "Kunnagampoondi": "09:40 am",          '+
+'    "Desure": "10:00 am",                  '+
+'    "Mazhaiyur": "10:20 am",               '+
+'    "Vallam X Road": "10:35 am",           '+
+'    "Cheyyar": "11:30 am"                  '+
+'  }                                        '+
+'}                                          ';
