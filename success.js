@@ -104,6 +104,11 @@ function makelist() {
 
 	if (numberOfListItems == 0) {
 		alert("No result found!");
+	} else {
+		var listItem = document.createElement("li");
+		listItem.className = "list-group-item list-group-item-danger active";
+		listItem.innerHTML = " Time &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -:- Bus List";
+		listElement.appendChild(listItem);
 	}
 
 	for (var i = 0; i < numberOfListItems; ++i) {
@@ -112,7 +117,7 @@ function makelist() {
 		if (i % 2 == 0)
 			listItem.className = "list-group-item list-group-item-success";
 		else
-			listItem.className = "list-group-item list-group-item-danger";
+			listItem.className = "list-group-item ";
 
 		listItem.innerHTML = availableList[i][1] + " -:- "+ availableList[i][0];
 		listElement.appendChild(listItem);
