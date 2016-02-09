@@ -12,7 +12,7 @@ $(document).ready(function(){
 		routeDetails = fulldetailsObj[bus];
 		for ( var route in routeDetails) {
 			a = route;
-			//b = routeDetails[route].toString();
+			b = routeDetails[route].toString();
 			allplaces.push(a);
 		}
 	}
@@ -29,23 +29,20 @@ function myFunction() {
 		opt.value = allplaces1[i];
 		sel.appendChild(opt);
 	}
-	document.getElementById("source1").innerHTML = document
-			.getElementById("source").innerHTML;
+	document.getElementById("destination").innerHTML = document.getElementById("source").innerHTML;
 	fetchTime();
 }
 
 function getDetails() {
-
 	availableList = [];
 	var from = document.getElementById("source").value;
-	var to = document.getElementById("source1").value;
-
+	var to = document.getElementById("destination").value;
 	var i = 0;
 
 	for ( var bus in fulldetailsObj) {
 		busName = bus;
 		routeDetails = fulldetailsObj[bus];
-		var bfrom;
+		var bfrom = false;
 
 		var sourceTime;
 
@@ -54,7 +51,7 @@ function getDetails() {
 			a = route;
 			b = routeDetails[route].toString();
 
-			if (from == a) {
+			if (bfrom== false && from == a) {
 				bfrom = true;
 				sourceTime = b;
 				continue;
@@ -66,7 +63,6 @@ function getDetails() {
 					availableList[i][1] = sourceTime;
 					i++;
 				}
-				bfrom = false;
 			}
 		}
 	}
@@ -94,7 +90,6 @@ function sortTimings() {
 
 					availableList[j + 1][1] = temp;
 					availableList[j + 1][0] = temp1;
-
 				}
 			}
 		}
@@ -104,9 +99,7 @@ function sortTimings() {
 function makelist() {
 
 	var listElement = document.getElementById("list");
-
 	listElement.innerHTML = '';
-
 	var numberOfListItems = availableList.length;
 
 	if (numberOfListItems == 0) {
@@ -121,8 +114,7 @@ function makelist() {
 		else
 			listItem.className = "list-group-item list-group-item-danger";
 
-		listItem.innerHTML = availableList[i][1] + " -:- "
-				+ availableList[i][0];
+		listItem.innerHTML = availableList[i][1] + " -:- "+ availableList[i][0];
 		listElement.appendChild(listItem);
 	}
 }
