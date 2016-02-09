@@ -117,7 +117,7 @@ function makelist() {
 		if (i % 2 == 0)
 			listItem.className = "list-group-item list-group-item-success";
 		else
-			listItem.className = "list-group-item ";
+			listItem.className = "list-group-item list-group-item-danger";
 
 		listItem.innerHTML = availableList[i][1] + " -:- "+ availableList[i][0];
 		listElement.appendChild(listItem);
