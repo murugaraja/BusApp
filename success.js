@@ -1,37 +1,29 @@
 var allplaces = [];
 var fulldetails;
 var fulldetailsObj;
+var availableList = [];
 
+// =====0===== Initial call by form 
 $(document).ready(function(){
-	fulldetailsObj = JSON.parse(sampledata);
+	fulldetailsObj = JSON.parse(bustimingsdata);
 	
 	for ( var bus in fulldetailsObj) {
 		busName = bus;
 		routeDetails = fulldetailsObj[bus];
 		for ( var route in routeDetails) {
 			a = route;
-			b = routeDetails[route].toString();
+			//b = routeDetails[route].toString();
 			allplaces.push(a);
 		}
 	}
-}) 
-
-function eliminateDuplicates(arr) {
-	var i, len = arr.length, out = [], obj = {};
-	for (i = 0; i < len; i++) {
-		obj[arr[i]] = 0;
-	}
-	for (i in obj) {
-		out.push(i);
-	}
-	return out;
-}
+})
 
 function myFunction() {
 	var allplaces1 = eliminateDuplicates(allplaces);
 	allplaces1.sort();
 	var sel = document.getElementById('source');
 	for (var i = 0; i < allplaces1.length; i++) {
+		
 		var opt = document.createElement('option');
 		opt.innerHTML = allplaces1[i];
 		opt.value = allplaces1[i];
@@ -42,19 +34,9 @@ function myFunction() {
 	fetchTime();
 }
 
-function fetchTime() {
-	var d = new Date();
-	var h = d.getHours();
-	var m = d.getMinutes();
-	document.getElementById("time").innerHTML = h + ":" + m;
-}
-
-var availableList = [];
-
 function getDetails() {
 
 	availableList = [];
-
 	var from = document.getElementById("source").value;
 	var to = document.getElementById("source1").value;
 
@@ -143,4 +125,23 @@ function makelist() {
 				+ availableList[i][0];
 		listElement.appendChild(listItem);
 	}
+}
+
+function eliminateDuplicates(arr) {
+	var i, len = arr.length, out = [], obj = {};
+	for (i = 0; i < len; i++) {
+		obj[arr[i]] = 0;
+	}
+	for (i in obj) {
+		out.push(i);
+	}
+	return out;
+}
+
+
+function fetchTime() {
+	var d = new Date();
+	var h = d.getHours();
+	var m = d.getMinutes();
+	document.getElementById("time").innerHTML = h + ":" + m;
 }
